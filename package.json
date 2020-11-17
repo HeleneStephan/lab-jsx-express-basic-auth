@@ -7,17 +7,35 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
+    "bcrypt": "^5.0.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
-    "express": "~4.16.1",
+    "express": "^4.17.1",
+    "express-react": "^1.0.2",
     "express-react-views": "^0.11.0",
+    "express-session": "^1.17.1",
     "mongoose": "^5.10.15",
-    "morgan": "~1.9.1",
+    "morgan": "^1.9.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeleneStephan/lab-jsx-express-basic-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeleneStephan/lab-jsx-express-basic-auth/issues"
+  },
+  "homepage": "https://github.com/HeleneStephan/lab-jsx-express-basic-auth#readme"
 }
